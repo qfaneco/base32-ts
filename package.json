@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "base32-ts",
   "version": "1.0.1",
   "description": "Base32 encode and decode implementation in Typescript",
