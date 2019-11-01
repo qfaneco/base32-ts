@@ -2,7 +2,7 @@
   "name": "base32-ts",
   "version": "1.0.0",
   "description": "Base32 encode and decode implementation in Typescript",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc --build",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
