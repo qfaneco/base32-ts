@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Base32 encode and decode implementation in Typescript",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc --build",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
