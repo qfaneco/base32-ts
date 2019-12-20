@@ -104,7 +104,7 @@ export const TEST_CASES: [string, string, string][] = [
     ['Crockford', '666f6f626172', 'CSQPYRK1E8'],
 ];
   
-export const CROCKFORD_EXTRAS = [
+export const CROCKFORD_EXTRAS: [string, string, string][] = [
     ['Crockford', '', ''],
     ['Crockford', '61', 'C4'],
     ['Crockford', '61', 'c4'],

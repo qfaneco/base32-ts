@@ -50,7 +50,7 @@ describe('base32', () => {
 /**
  * Turn a string of hexadecimal characters into an ArrayBuffer
  */
-export function hexToArrayBuffer(hex: string): ArrayBuffer {
+function hexToArrayBuffer(hex: string): ArrayBuffer {
     if (hex.length % 2 !== 0) {
         throw new RangeError('Expected string to be an even number of characters');
     }
