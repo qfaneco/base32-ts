@@ -3,7 +3,7 @@ export namespace Base32 {
         RFC4648 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ234567',
         RFC4648_HEX = '0123456789ABCDEFGHIJKLMNOPQRSTUV',
         CROCKFORD = '0123456789ABCDEFGHJKMNPQRSTVWXYZ',
-    }   
+    }
 
     export type Variant = 'RFC3548' | 'RFC4648' | 'RFC4648-HEX' | 'Crockford';
 
@@ -36,7 +36,7 @@ export namespace Base32 {
                 throw new Error(`Unknown base32 variant: ${variant}`);
         }
 
-        const length = buffer.byteLength
+        const length = buffer.byteLength;
         const array = new Uint8Array(buffer);
 
         let bits = 0;
@@ -54,7 +54,7 @@ export namespace Base32 {
         }
 
         if (bits > 0) {
-            output += alphabet[(value << (5 - bits)) & 31]
+            output += alphabet[(value << (5 - bits)) & 31];
         }
 
         if (defaultPadding) {

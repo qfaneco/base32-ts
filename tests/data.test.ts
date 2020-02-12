@@ -7,7 +7,7 @@ export const TEST_CASES: [string, string, string][] = [
     ['RFC4648', '666f6f62', 'MZXW6YQ='],
     ['RFC4648', '666f6f6261', 'MZXW6YTB'],
     ['RFC4648', '666f6f626172', 'MZXW6YTBOI======'],
-  
+
     // RFC 4648 - Hex test vectors
     ['RFC4648-HEX', '', ''],
     ['RFC4648-HEX', '66', 'CO======'],
@@ -16,7 +16,7 @@ export const TEST_CASES: [string, string, string][] = [
     ['RFC4648-HEX', '666f6f62', 'CPNMUOG='],
     ['RFC4648-HEX', '666f6f6261', 'CPNMUOJ1'],
     ['RFC4648-HEX', '666f6f626172', 'CPNMUOJ1E8======'],
-  
+
     // RFC 4648 - Random data
     ['RFC4648', '73', 'OM======'],
     ['RFC4648', 'f80c', '7AGA===='],
@@ -96,14 +96,14 @@ export const TEST_CASES: [string, string, string][] = [
         'f2fc2319bd29457ccd01e8e194ee9bd7e97298b6610df4ab0f3d5baa0b2d7ccf69829edb74edef',
         '6L6CGGN5FFCXZTIB5DQZJ3U327UXFGFWMEG7JKYPHVN2UCZNPTHWTAU63N2O33Y=',
     ],
-  
+
     // Crockford - Small samples
     ['Crockford', '', ''],
     ['Crockford', '61', 'C4'],
     ['Crockford', '6c696e7573', 'DHMPWXBK'],
     ['Crockford', '666f6f626172', 'CSQPYRK1E8'],
 ];
-  
+
 export const CROCKFORD_EXTRAS: [string, string, string][] = [
     ['Crockford', '', ''],
     ['Crockford', '61', 'C4'],
